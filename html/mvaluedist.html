@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>My Plot</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        display: flow-root;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+<script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.8.0.min.js"></script>
+<script type="text/javascript">
+Bokeh.set_log_level("info");
+</script>
+  </head>
+  <body>
+    <div id="bd358f77-686d-48e5-8721-1a815429716c" data-root-id="p3822" style="display: contents;"></div>
+  
+    <script type="application/json" id="b66a20c7-1e36-412d-a0e8-3f012e45bb46">
+      {"06cad998-f6a2-45ef-8cdb-d42886dfc655":{"version":"3.8.0","title":"Bokeh Application","config":{"type":"object","name":"DocumentConfig","id":"p4136","attributes":{"notifications":{"type":"object","name":"Notifications","id":"p4137"}}},"roots":[{"type":"object","name":"Figure","id":"p3822","attributes":{"width":700,"height":400,"x_range":{"type":"object","name":"DataRange1d","id":"p3823"},"y_range":{"type":"object","name":"DataRange1d","id":"p3824"},"x_scale":{"type":"object","name":"LinearScale","id":"p3832"},"y_scale":{"type":"object","name":"LinearScale","id":"p3833"},"title":{"type":"object","name":"Title","id":"p3825","attributes":{"text":"Market Value Distribution (in Billion Euros)"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p3863","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p3857","attributes":{"selected":{"type":"object","name":"Selection","id":"p3858","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p3859"},"data":{"type":"map","entries":[["top",{"type":"ndarray","array":{"type":"bytes","data":"H4sIAAEAAAAC/2thYGCwB2JZIOYAYlYgZgFiZiBmhLJBNACOZtR8KAAAAA=="},"shape":[10],"dtype":"int32","order":"little"}],["left",{"type":"ndarray","array":{"type":"bytes","data":"H4sIAAEAAAAC/5s1EwQ4HdpeB+6QaxV2sOO6vrjAVsqhRmSd+8MqBYcbQB7XdWUHE2MQUHeYcOirRky/lsMbkPLXug5LQNKLDRyCQNxAIwcAPbjI3lAAAAA="},"shape":[10],"dtype":"float64","order":"little"}],["right",{"type":"ndarray","array":{"type":"bytes","data":"H4sIAAEAAAAC/2t7HbhDrlXYwY7r+uICWymHGpF17g+rFBxuAHlc15UdTIxBQN1hwqGvGjH9Wg5vQMpf6zosAUkvNnAIAnEDjRwYwMDEAQDQ5vmJUAAAAA=="},"shape":[10],"dtype":"float64","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p3864","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p3865"}}},"glyph":{"type":"object","name":"Quad","id":"p3860","attributes":{"left":{"type":"field","field":"left"},"right":{"type":"field","field":"right"},"bottom":{"type":"value","value":0},"top":{"type":"field","field":"top"},"line_color":{"type":"value","value":"red"},"line_alpha":{"type":"value","value":0.7},"fill_color":{"type":"value","value":"orange"},"fill_alpha":{"type":"value","value":0.7},"hatch_alpha":{"type":"value","value":0.7}}},"nonselection_glyph":{"type":"object","name":"Quad","id":"p3861","attributes":{"left":{"type":"field","field":"left"},"right":{"type":"field","field":"right"},"bottom":{"type":"value","value":0},"top":{"type":"field","field":"top"},"line_color":{"type":"value","value":"red"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"orange"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Quad","id":"p3862","attributes":{"left":{"type":"field","field":"left"},"right":{"type":"field","field":"right"},"bottom":{"type":"value","value":0},"top":{"type":"field","field":"top"},"line_color":{"type":"value","value":"red"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"orange"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p3831","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p3844"},{"type":"object","name":"WheelZoomTool","id":"p3845","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p3846","attributes":{"dimensions":"both","overlay":{"type":"object","name":"BoxAnnotation","id":"p3847","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p3853","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p3852","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"SaveTool","id":"p3854"},{"type":"object","name":"ResetTool","id":"p3855"},{"type":"object","name":"HelpTool","id":"p3856"}]}},"left":[{"type":"object","name":"LinearAxis","id":"p3839","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p3840","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p3841"},"axis_label":"Number of Players","major_label_policy":{"type":"object","name":"AllLabels","id":"p3842"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p3834","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p3835","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p3836"},"axis_label":"Market Value (Billion EUR)","major_label_policy":{"type":"object","name":"AllLabels","id":"p3837"}}}],"center":[{"type":"object","name":"Grid","id":"p3838","attributes":{"axis":{"id":"p3834"}}},{"type":"object","name":"Grid","id":"p3843","attributes":{"dimension":1,"axis":{"id":"p3839"}}}]}}]}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('b66a20c7-1e36-412d-a0e8-3f012e45bb46').textContent;
+              const render_items = [{"docid":"06cad998-f6a2-45ef-8cdb-d42886dfc655","roots":{"p3822":"bd358f77-686d-48e5-8721-1a815429716c"},"root_ids":["p3822"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>
